@@ -20,3 +20,10 @@ The application calculates and outputs the total income for the worker, includin
 <p>-  The user is expected to enter a valid WorkerLevel (e.g., JUNIOR, MID_LEVEL, SENIOR), but no validation checks are in place to handle incorrect or unexpected input.</p>
 <p>-  The application assumes that the user will enter a valid date in the dd/MM/yyyy format. Invalid date formats will trigger a ParseException, but the error is not recovered gracefully (e.g., by prompting the user to re-enter a correct date).</p>
 <p>-  Numeric inputs, such as base salary and contract hours, are not validated for being positive or within reasonable limits.</p>
+
+<h3>Lack of error masseges</h3>
+<p>-  If a contract's date is incorrect or other contract details are invalid, the application does not provide clear feedback to the user about which input was wrong. This could confuse users, especially if they're entering multiple contracts.</p>
+<p></p>
+
+<h3>No Handling for Empty or Missing Inputs</h3>
+<p>The application does not handle empty or missing inputs. If the user presses Enter without providing a value, the application may behave unexpectedly, especially when parsing numeric values (e.g., salary, hours, or value per hour).</p>
