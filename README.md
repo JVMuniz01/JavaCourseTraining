@@ -16,7 +16,7 @@ The application calculates and outputs the total income for the worker, includin
 
 <h2>Potentioal issues</h2>
 <h3>Weak input validation</h3>
-<p>The application currently lacks comprehensive input validation. For example:
-The user is expected to enter a valid WorkerLevel (e.g., JUNIOR, MID_LEVEL, SENIOR), but no validation checks are in place to handle incorrect or unexpected input.
-The application assumes that the user will enter a valid date in the dd/MM/yyyy format. Invalid date formats will trigger a ParseException, but the error is not recovered gracefully (e.g., by prompting the user to re-enter a correct date).
-Numeric inputs, such as base salary and contract hours, are not validated for being positive or within reasonable limits.</p>
+<p>The application currently lacks comprehensive input validation. For example:</p>
+<p>The user is expected to enter a valid WorkerLevel (e.g., JUNIOR, MID_LEVEL, SENIOR), but no validation checks are in place to handle incorrect or unexpected input.</p>
+<p>The application assumes that the user will enter a valid date in the dd/MM/yyyy format. Invalid date formats will trigger a ParseException, but the error is not recovered gracefully (e.g., by prompting the user to re-enter a correct date).</p>
+<p>Numeric inputs, such as base salary and contract hours, are not validated for being positive or within reasonable limits.</p>
