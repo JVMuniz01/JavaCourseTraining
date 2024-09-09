@@ -13,3 +13,6 @@ Income Calculation: Calculate the total income for a worker for a specific month
 The user specifies how many contracts the worker has, followed by details of each contract (date, hourly rate, and duration in hours).
 The user inputs the month and year to calculate the worker’s income based on their contracts for that period.
 The application calculates and outputs the total income for the worker, including the base salary and any contracts within the specified period.</p>
+
+<h2>Potentioal issues</h2>
+<h3>sdfsdf</h3>
